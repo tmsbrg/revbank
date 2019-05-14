@@ -47,7 +47,7 @@ sub hook_checkout {
     _log("CHECKOUT $transaction_id $_") for $cart->as_strings;
 }
 
-sub hook_register {
-    my ($class, $plugin) = @_;
-    _log("REGISTER $plugin");
-}
+#sub hook_register {
+#    my ($class, $plugin) = @_;
+#    _log("REGISTER $plugin");
+#}
